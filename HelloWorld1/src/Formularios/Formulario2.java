@@ -14,6 +14,8 @@ public class Formulario2 extends javax.swing.JFrame {
     /**
      * Creates new form Formulario2
      */
+      formulario1 a;
+    String c;
     public Formulario2() {
         initComponents();
     }
@@ -30,6 +32,11 @@ public class Formulario2 extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowActivated(java.awt.event.WindowEvent evt) {
+                formWindowActivated(evt);
+            }
+        });
 
         jButton2.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jButton2.setText("Ir a formulario 3");
@@ -60,10 +67,17 @@ public class Formulario2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        
         formulario3 abrir = new formulario3();
         abrir.setVisible(true);
-        this.dispose();
+        //this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
+       formulario1  a = new formulario1();
+        c = a.nom;
+   
+    }//GEN-LAST:event_formWindowActivated
 
     /**
      * @param args the command line arguments
