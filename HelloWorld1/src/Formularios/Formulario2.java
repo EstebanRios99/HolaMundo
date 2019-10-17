@@ -31,7 +31,7 @@ public class Formulario2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        Btn2.setText("Regresar a formulario 2");
+        Btn2.setText("Ir al formulario 3");
         Btn2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Btn2ActionPerformed(evt);
@@ -45,7 +45,7 @@ public class Formulario2 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(111, 111, 111)
                 .addComponent(Btn2)
-                .addContainerGap(144, Short.MAX_VALUE))
+                .addContainerGap(178, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -59,7 +59,7 @@ public class Formulario2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Btn2ActionPerformed
-        formulario1 frame = new formulario1();
+        formulario3 frame = new formulario3();
         frame.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_Btn2ActionPerformed
