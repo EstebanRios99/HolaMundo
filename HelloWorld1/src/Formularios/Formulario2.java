@@ -59,8 +59,9 @@ public class Formulario2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Btn2ActionPerformed
-        formulario1 frame = new formulario2 ();
-        frame
+        formulario1 frame = new formulario1();
+        frame.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_Btn2ActionPerformed
 
     /**
