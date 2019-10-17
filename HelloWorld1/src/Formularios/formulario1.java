@@ -98,7 +98,7 @@ public class formulario1 extends javax.swing.JFrame {
 
     private void Btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Btn2ActionPerformed
         nom = TextNombre.getText();
-        
+        //ejemplo
     }//GEN-LAST:event_Btn2ActionPerformed
 
     /**

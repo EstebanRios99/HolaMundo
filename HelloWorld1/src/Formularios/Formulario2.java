@@ -75,7 +75,7 @@ public class Formulario2 extends javax.swing.JFrame {
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
        formulario1  a = new formulario1();
-        c = a.nom;
+       c = a.nom;
    
     }//GEN-LAST:event_formWindowActivated
 
